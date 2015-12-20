@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+   - name: ubuntu-14.04
+     driver_config:
+       privileged: true
+
+suites:
+  - name: default
+    run_list:
+      - recipe[apt::default]
+      - recipe[zmap::default]
+    attributes:
