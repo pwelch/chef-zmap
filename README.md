@@ -1,3 +1,7 @@
+[![Cookbook](http://img.shields.io/cookbook/v/zmap.svg)](https://supermarket.chef.io/cookbooks/zmap)
+[![GitHub tag](https://img.shields.io/github/tag/pwelch/chef-zmap.svg)](https://github.com/pwelch/chef-zmap/releases)
+[![Build Status](https://secure.travis-ci.org/pwelch/chef-zmap.svg)](http://travis-ci.org/pwelch/chef-zmap)
+
 # zmap
 
 ## Description
